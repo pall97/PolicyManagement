@@ -102,13 +102,13 @@ a#pdf {
 
 
 @media(max-width:768px){
-    #sidebar{margin-left: -250px;}
+    #sidebar{margin-left: -350px;}
     #sidebar.active{
         margin-left: 0px;
     }
 
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width:400px){
     #sidebar {
         min-width: 250px;
         max-width: 250px;
@@ -121,12 +121,15 @@ a#pdf {
     #logo{
         display: none;
     }
-    .ml-4, .mx-4 {
+    .ml-5, .mx-5 {
         margin-left: 0rem !important; 
     }
-    button{
-        width: 95%;
+    #delete{
+        width: 100%;
         margin-top: 1rem;
+    }
+    #sidebarCollapse{
+        margin-left: 30px;
     }
 }
 
