@@ -1,0 +1,156 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+.navbar{
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+#sidebar {
+    min-width: 350px;
+    max-width: 250px;
+    min-height: 900px;
+    background: #F1F1F1;
+    color: black;
+    transition: all 0.3s;
+    /*    text-align: center;*/
+}
+#sidebar.active{
+    margin-left: -350px;
+}
+.shifting{
+    margin-left: 5%;
+}
+#sidebar .sidebar-header{
+    padding: 20px;
+    background: #3370A5;
+}
+#sidebar ul.components{
+    padding: 20px 0px;
+    border-bottom: 1px solid #47748b;
+}
+#logo{
+    max-width: 17rem;
+    margin-left: 20%;
+
+}
+#userimage{
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+}
+#sidebar ul p{
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+.content {
+    width: 100%;
+    padding: 2px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+#sidebar ul li a{
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.policyContent{
+    padding: 5px 20px;
+}
+p{
+    font-size: 24px;
+    padding-top: 5px;
+}
+hr{
+    border: 1px solid black;
+}
+a#pdf {
+    font-size: 26px;     
+}
+
+
+
+
+
+
+
+@media(max-width:768px){
+    #sidebar{margin-left: -250px;}
+    #sidebar.active{
+        margin-left: 0px;
+    }
+
+}
+@media only screen and (max-width: 450px){
+    #sidebar {
+        min-width: 250px;
+        max-width: 250px;
+        min-height: 900px;
+        background: #F1F1F1;
+        color: black;
+        transition: all 0.3s;
+        /*    text-align: center;*/
+    }
+    #logo{
+        display: none;
+    }
+    .ml-4, .mx-4 {
+        margin-left: 0rem !important; 
+    }
+    button{
+        width: 95%;
+        margin-top: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
