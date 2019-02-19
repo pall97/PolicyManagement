@@ -2,7 +2,7 @@
 
 > create table Policies 
 (
-ID varchar(10) primary key, 
+Id varchar(10) primary key, 
 Name varchar(max),
 Description varchar(max),
 Link varchar(max)
