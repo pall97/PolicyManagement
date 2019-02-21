@@ -19,41 +19,58 @@
         <div class="wrapper">
             <nav id="sidebar" >
                 <div class="sidebar-header">
-                    <h3 class="shifting">POLICIES</h3>
+                    <span><h3 class="shifting mt-2">POLICIES</h3></span>
+                    <span> <button class="btn btn-success btn-lg"  data-toggle="modal" data-target="#policyToAdd" style="float: right;">Add Policy</button></span>
                 </div>
                 <ul class="list-unstyled components">
                     <li> <input type="text" class="form-control ml-2" style="width: 90%;" placeholder="search"></li>
                     <li class="shifting mt-3">
-                        <a href="">policy1</a>
-                        <a href="">policy2</a>
-                        <a href="">policy3</a>
-                        <a href="">policy4</a>
+                        <div class="container">            
+                            <table class="table table-hover">
+                                
+                                <tbody>
+                                    <tr>
+                                        <td><a href="">Policy 1</a></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td><a href="">Policy 2</a></td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td><a href="">Policy 2</a></td>
+                                        
+                                    </tr>
+                                   
+                                </tbody>
+                            </table>
+                        </div>
                     </li>
                 </ul>
 
-                <button class="btn btn-success btn-lg btn-block ml-3" style="width: 85%;" data-toggle="modal" data-target="#policyToAdd">Add Policy</button>
+
             </nav>
             <div class="content">
                 <div class="container-fliud">
                     <nav class="navbar navbar-default bg-light">
-                            
-                                <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item active">
-                                        <button type="button" id="sidebarCollapse" class="btn btn-info btn-lg mt-2">
-                                            <i class="fa fa-align-justify"></i> <span>All Policies</span>
-                                        </button>
-                                    </li>
-                                </ul>
 
-                                <div class="mx-auto order-0">
-                                    <a class="navbar-brand " href="#"><img src="images/logo.png" alt="" id="logo"></a>
-                                </div>
-                                <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                                    <ul class="navbar-nav ml-auto">
-                                        <img src="images/logo.png" alt="" id="userimage" >
-                                    </ul>
-                                </div>
-                                        
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <button type="button" id="sidebarCollapse" class="btn btn-info btn-lg mt-2">
+                                    <i class="fa fa-align-justify"></i> <span>All Policies</span>
+                                </button>
+                            </li>
+                        </ul>
+
+                        <div class="mx-auto order-0">
+                            <a class="navbar-brand " href="#"><img src="images/logo.png" alt="" id="logo"></a>
+                        </div>
+                        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                            <ul class="navbar-nav ml-auto">
+                                <img src="images/logo.png" alt="" id="userimage" >
+                            </ul>
+                        </div>
+
                     </nav>
 
 
