@@ -1,0 +1,16 @@
+=>	CREATE DATABASE PolicyManagement;
+
+=>	create table Policies 
+	(
+	Id varchar(10) primary key not Null, 
+	Name varchar(max) not null,
+	Description varchar(max) not null,
+	Link varchar(max)
+	);
+
+=>	insert into Policies values('itinfra1', 
+	'IT infrastructure policies',
+	'These policies describes the IT infrastructure and secure policies',
+	'https://jhdgsfsdf3s5dfa4ds9f84a1d5asd4asfd');
+
+=>	select * from Policies;
