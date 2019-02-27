@@ -1,8 +1,7 @@
-> create database Policy;
+>create database Policy
 
-> create table Policies 
-(
-Id varchar(10) primary key, 
+>create table Policies
+(Id UNIQUEIDENTIFIER DEFAULT NEWID(), 
 Name varchar(max),
 Description varchar(max),
 Link varchar(max)
